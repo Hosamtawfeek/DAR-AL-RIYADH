@@ -1,0 +1,29 @@
+{
+  "pluginName": "Navise Dar Tools",
+  "product": "Autodesk Navisworks Manage",
+  "supportedVersions": [
+    "2026"
+  ],
+  "currentVersion": "1.0.0",
+  "minimumRequiredVersion": "1.0.0",
+  "releaseDate": "2026-05-21",
+  "releaseNotes": [
+    "Export Clash Detective summary report to Excel.",
+    "Export Clash Detective summary report to PDF.",
+    "Supports with-stage and without-stage report templates.",
+    "PDF output fits all report columns to page width."
+  ],
+  "files": [
+    {
+      "fileName": "Navise Dar Tools.dll",
+      "targetRelativePath": "Navise Dar Tools.dll",
+      "downloadUrl": "https://github.com/YOUR_ORG/YOUR_REPO/releases/download/v1.0.0/Navise.Dar.Tools.dll",
+      "sha256": "TODO_ADD_SHA256_AFTER_RELEASE_UPLOAD"
+    }
+  ],
+  "install": {
+    "navisworksPluginFolder": "C:\\Program Files\\Autodesk\\Navisworks Manage 2026\\Plugins\\Navise Dar Tools",
+    "requiresAdmin": true,
+    "restartRequired": true
+  }
+}
