@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1.0",
+  "version": "1.0.4.0",
   "message": "New DAR BOQ Checker version is available. Please close Revit before installing.",
-  "downloadUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/download/v1.0.1.0/DAR_Tools_Setup1.0.1.0.zip",
-  "releaseNotesUrl": "improved Family Rename system family handling"
+  "downloadUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/download/v1.0.4.0/DAR_BOQ_Checker_Update1.0.4.0.zip",
+  "releaseNotesUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/tag/v1.0.4.0"
 }
