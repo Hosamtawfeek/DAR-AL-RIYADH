@@ -2,27 +2,67 @@
   "pluginName": "Navise Dar Tools",
   "product": "Autodesk Navisworks Manage",
   "supportedVersions": [
-    "2026"
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027"
   ],
-  "currentVersion": "1.0.2.0",
-  "minimumRequiredVersion": "1.0.2.0",
-  "releaseDate": "2026-05-21",
+  "currentVersion": "1.0.3",
+  "minimumRequiredVersion": "1.0.0",
+  "releaseDate": "2026-06-04",
   "releaseNotes": [
     "Export Clash Detective summary report to Excel.",
     "Export Clash Detective summary report to PDF.",
     "Supports with-stage and without-stage report templates.",
-    "PDF output fits all report columns to page width."
+    "PDF output fits all report columns to page width.",
+    "Built-in GitHub update checker and downloader.",
+    "Editable Word and Excel templates are copied to the user's Documents folder.",
+    "Installer EXE includes the DLL, cover template, both Excel templates, and PDF merge library.",
+    "Adds automatic trade-only summary export for clash names such as 0001_PA_FPR_vs_IRR.",
+    "Fixes Navisworks Manage 2027 loading by building against the 2027 API.",
+    "Adds Fast Export Mode for detailed clash reports to skip screenshots, item paths, and grid lookup on large models.",
+    "Installer and online updater now select the correct DLL for each Navisworks API version.",
+    "Legacy installer supports Navisworks Manage 2020 through 2026; 2027 uses a separate API-specific installer.",
+    "Fixes reading Clash Detective tests in Navisworks Manage 2027 using TestsRoot.Children.",
+    "Simplifies detailed report options: Fast Export Mode controls whether clash images are included.",
+    "Online update downloads version-specific zip files for 2020-2026 and 2027."
   ],
   "files": [
     {
-      "fileName": "Navise Dar Tools.dll",
+      "fileName": "Navise.Dar.Tools.2020-2026.zip",
       "targetRelativePath": "Navise Dar Tools.dll",
-      "downloadUrl": "https://github.com/YOUR_ORG/YOUR_REPO/releases/download/v1.0.0/Navise.Dar.Tools.dll",
-      "sha256": "TODO_ADD_SHA256_AFTER_RELEASE_UPLOAD"
+      "navisworksVersion": "2020-2026",
+      "downloadUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/download/v1.0.3/Navise.Dar.Tools.2020-2026.zip",
+      "sha256": "3626427C184F7503A48F6D6EA47848BF4536B04FEF5D1C8B1E26C0D676B77619"
+    },
+    {
+      "fileName": "Navise.Dar.Tools.2027.zip",
+      "targetRelativePath": "Navise Dar Tools.dll",
+      "navisworksVersion": "2027",
+      "downloadUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/download/v1.0.3/Navise.Dar.Tools.2027.zip",
+      "sha256": "645A5E6709F2D2D239B6FDFE8C5CE0BC8B22883BE78FEEF8BEB5EDA9561BE69D"
+    },
+    {
+      "fileName": "Navise Dar Tools Installer 2020-2026.exe",
+      "targetRelativePath": "Navise Dar Tools Installer 2020-2026.exe",
+      "navisworksVersion": "2020-2026",
+      "downloadUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/download/v1.0.3/Navise.Dar.Tools.Installer.2020-2026.exe",
+      "sha256": "1A7CCB44E1B2574B8BF57279D69B5B3C5E49A77E33497B4140C19568C41AC717"
+    },
+    {
+      "fileName": "Navise Dar Tools Installer 2027.exe",
+      "targetRelativePath": "Navise Dar Tools Installer.exe",
+      "navisworksVersion": "2027",
+      "downloadUrl": "https://github.com/Hosamtawfeek/DAR-AL-RIYADH/releases/download/v1.0.3/Navise.Dar.Tools.Installer.2027.exe",
+      "sha256": "28DCFF99516D9D9FC75ACD9F0185BA0EB2D6E7E8D79B80327E18774E59A8F97A"
     }
   ],
   "install": {
-    "navisworksPluginFolder": "C:\\Program Files\\Autodesk\\Navisworks Manage 2026\\Plugins\\Navise Dar Tools",
+    "navisworksPluginFolder": "C:\\Program Files\\Autodesk\\Navisworks Manage {VERSION}\\Plugins\\Navise Dar Tools",
     "requiresAdmin": true,
     "restartRequired": true
   }
